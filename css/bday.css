@@ -326,19 +326,19 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid;
 }
 
-.button.button--wapasha {
+.button.buttonchoice {
     background: #37474f;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.button--wapasha.button--inverted {
+.buttonchoice.button--inverted {
     background: #fff;
     color: #37474f;
 }
 
-.button--wapasha::before {
+.buttonchoice::before {
     content: '';
     position: absolute;
     top: 0;
@@ -357,21 +357,21 @@ body::-webkit-scrollbar-thumb {
     transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 
-.button--wapasha.button--inverted::before {
+.buttonchoice.button--inverted::before {
     border-color: #7986cb;
 }
 
-.button--wapasha:hover {
+.buttonchoice:hover {
     background-color: #fff;
     color: #3f51b5;
 }
 
-.button--wapasha.button--inverted:hover {
+.buttonchoice.button--inverted:hover {
     background-color: #37474f;
     color: #7986cb;
 }
 
-.button--wapasha:hover::before {
+.buttonchoice:hover::before {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
     opacity: 1;
