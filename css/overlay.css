@@ -1,0 +1,176 @@
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #ff4230;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+    }
+    
+    .overlay2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #14677f;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+    }
+    
+    .overlay3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #b737f5;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+    }
+    
+    .overlay4 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #974362;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+    }
+    
+    .text {
+        font-family: 'Sriracha';
+        color: black;
+        text-align: center;
+    }
+    
+    .text2 {
+        font-family: 'Sriracha';
+        color: black;
+        text-align: center;
+    }
+    
+    .text3 {
+        font-family: 'Sriracha';
+        color: black;
+        text-align: center;
+    }
+    
+    .columns .image:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .columns .image:hover .overlay {
+        opacity: 0.6;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    .columns .image:hover .text {
+        animation: textanim 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .columns .image:hover .text2 {
+        animation: textanim2 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .columns .image:hover .text3 {
+        animation: textanim3 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .columns .image:hover .overlay2 {
+        opacity: 0.6;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    .columns .image:hover .overlay3 {
+        opacity: 0.6;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    .columns .image:hover .overlay4 {
+        opacity: 0.6;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    @keyframes textanim {
+        0% {
+            font-size: 0;
+            opacity: 0;
+        }
+        60% {
+            font-size: 70px;
+            opacity: 0.5;
+        }
+        100% {
+            font-size: 50px;
+            opacity: 1;
+        }
+    }
+    
+    @keyframes textanim2 {
+        0% {
+            font-size: 0;
+            opacity: 0;
+        }
+        60% {
+            font-size: 40px;
+            opacity: 0.5;
+        }
+        100% {
+            font-size: 30px;
+            opacity: 1;
+        }
+    }
+    
+    @keyframes textanim3 {
+        0% {
+            font-size: 0;
+            opacity: 0;
+        }
+        60% {
+            font-size: 50px;
+            opacity: 0.5;
+        }
+        100% {
+            font-size: 40px;
+            opacity: 1;
+        }
+    }
